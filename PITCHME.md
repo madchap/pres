@@ -1,18 +1,18 @@
 ## DevSecOps Lausanne meetup - 13.06.2017
 A journey to DevSecOps
 ---
-Embracing DevOps
+<span style="color:gray">Embracing DevOps</span>
 
 * Re-org - new management - engineering empowerment
 * Still in the early days of rolling out DevSecOps
 
-<span style="color: #e49436; text-transform: none">[Sponsor plug: I am hiring!</span>
+<span style="color: #e49436; text-transform: none">[Sponsor plug: I am hiring!]</span>
 
 ---
-# DevOps at Kudelski Security
-* Break walls (literally)
-* Empower engineering leads
-* Always-on "Designated ops" in "solutions" team
+<span style="color:gray">DevOps at Kudelski Security</span>
+* Break walls (literally) |
+* Empower engineering leads |
+* Always-on "Designated ops" in "solutions" team |
 
 * DevSecOps is ongoing -- I mean, we're a security company right?
 
