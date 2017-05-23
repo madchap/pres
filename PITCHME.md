@@ -2,7 +2,7 @@
 A journey to DevSecOps
 ---
 ## Kudelski Security - new chapter
-![logo](assets/logo-kudelski.png)
+!(assets/logo-kudelski.png)
 
 * Re-org - new management - engineering empowerment
 * Still in the early days of rolling out DevSecOps
