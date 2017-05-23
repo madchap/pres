@@ -3,26 +3,29 @@ A journey to DevSecOps
 ---
 <span style="color:gray">Embracing DevOps</span>
 
-- Re-org - new management - engineering empowerment
-- Still in the early days of rolling out DevSecOps
+- Re-org 
+- New management
+- **Engineering tech leads empowered**
 
 <span style="color: #e49436; text-transform: none">[Sponsor plug: I am hiring!]</span>
 
 ---
 <span style="color:gray">How we do DevOps</span>
 
-[![Masked Cucumbers](assets/masked_cucumber_90px.jpg)]
+![Masked Cucumber](assets/masked_cucumber_90px.jpg)
+
+A reorg triggered everything...
 
 - Knock walls down (literally) |
 - Empower engineering leads |
 - Always-on "Designated ops" in "solutions" team |
-- DevSecOps is ongoing -- I mean, we're a security company right? |
+- Still in the early days of rolling out DevSecOps |
 
 ---
  <span style="color:gray">Back to the future</span>
-  * I've been told DevOps was like back in the 70's and 80's
-  	* But I am too young to remember :-)
-  * Before frameworks like ITIL and COBIT come along and try to control the world
+* I've been told DevOps was like back in the 70's and 80's
+  * But I am too young to remember :-)
+* Before frameworks like ITIL and COBIT come along and try to control the world
 
 ---
 # Hello DevOps!
