@@ -21,12 +21,9 @@ A journey to DevSecOps
 
 ---
  <span style="color:gray">Back to the future</span>
-* I've been told DevOps was like back in the 70's and 80's
-  * But I am too young to remember :-)
+* I've been told DevOps was like back in the 70's and 80's, but I am too young to remember :-)
 
-Before frameworks like ITIL and COBIT come along and try to control the world
-
-![ITIL is evil](assets/ITILisevil_smaller.png)
+![ITIL is evil](assets/ITILisevil_avg.png)
 
 ---
 # Hello DevOps!
