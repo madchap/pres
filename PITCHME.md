@@ -11,7 +11,7 @@ A journey to DevSecOps
 ---
 <span style="color:gray">How we do DevOps</span>
 
-![Masked Cucumbers](assets/masked_cucumber_90px.jpg)
+[![Masked Cucumbers](assets/masked_cucumber_90px.jpg)]
 
 - Knock walls down (literally) |
 - Empower engineering leads |
@@ -19,15 +19,7 @@ A journey to DevSecOps
 - DevSecOps is ongoing -- I mean, we're a security company right? |
 
 ---
-# The business wants to go faster
-* Want product ASAP
-* Understand possible technical debt, but well.. you gotta do it both...
-
-* and we're a security company!
-  * Outta do DevSecOps!
-
----
-# Back to the future
+ <span style="color:gray">Back to the future</span>
   * I've been told DevOps was like back in the 70's and 80's
   	* But I am too young to remember :-)
   * Before frameworks like ITIL and COBIT come along and try to control the world
