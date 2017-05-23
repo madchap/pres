@@ -1,12 +1,12 @@
 ## DevSecOps Lausanne meetup - 13.06.2017
 A journey to DevSecOps
 ---
-## Kudelski Security - new chapter
-!(assets/logo-kudelski.png)
+### Kudelski Security - Embracing DevOps
 
 * Re-org - new management - engineering empowerment
 * Still in the early days of rolling out DevSecOps
-* Sponsor plug: I am hiring!
+
+[Sponsor plug: I am hiring!]
 
 ---
 # DevOps at Kudelski Security
