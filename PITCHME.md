@@ -14,8 +14,6 @@ A journey to DevSecOps
 
 ![Masked Cucumber](assets/masked_cucumber_90px.jpg)
 
-A reorg triggered everything...
-
 - Knock walls down (literally) |
 - Empower engineering leads |
 - Always-on "Designated ops" in "solutions" team |
@@ -25,7 +23,10 @@ A reorg triggered everything...
  <span style="color:gray">Back to the future</span>
 * I've been told DevOps was like back in the 70's and 80's
   * But I am too young to remember :-)
-* Before frameworks like ITIL and COBIT come along and try to control the world
+
+Before frameworks like ITIL and COBIT come along and try to control the world
+
+![ITIL is evil](assets/ITILisevil_smaller.png)
 
 ---
 # Hello DevOps!
