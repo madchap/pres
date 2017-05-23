@@ -9,12 +9,14 @@ A journey to DevSecOps
 <span style="color: #e49436; text-transform: none">[Sponsor plug: I am hiring!]</span>
 
 ---
-<span style="color:gray">DevOps at Kudelski Security</span>
-- Break walls (literally) |
+<span style="color:gray">How we do DevOps</span>
+
+[Masked Cucumbers](assets/masked_cucumber.jpg)
+
+- Knock walls down (literally) |
 - Empower engineering leads |
 - Always-on "Designated ops" in "solutions" team |
-
-* DevSecOps is ongoing -- I mean, we're a security company right?
+- DevSecOps is ongoing -- I mean, we're a security company right? |
 
 ---
 # The business wants to go faster
