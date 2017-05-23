@@ -11,7 +11,7 @@ A journey to DevSecOps
 ---
 <span style="color:gray">How we do DevOps</span>
 
-[Masked Cucumbers](assets/masked_cucumber.jpg)
+![Masked Cucumbers](assets/masked_cucumber.jpg)
 
 - Knock walls down (literally) |
 - Empower engineering leads |
