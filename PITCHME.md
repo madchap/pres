@@ -85,7 +85,7 @@ Replace manual checks and gates with automated counterparts
 
 ---
 <span style="color:gray">Still present in a lot of places</span>
-<span style="display:block; font-size:0.8em">
+<div style="display:block; font-size:0.8em">
 * Separation of duties (i.e., iso27001)
 * Many: 
   * are still in favor of few big "controlled" changes
@@ -98,7 +98,7 @@ Linus Torvalds says:
 > "Talk is cheap, show me the code"
 
 And I say Word&copy; docs are expensive, and just nearly equally worthless.
-</span>
+</div>
 
 ---
 <span style="color:gray">Where to get started</span>
