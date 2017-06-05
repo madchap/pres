@@ -19,43 +19,44 @@ A journey to DevSecOps
 - Always-on "Designated ops" in "solutions" team |
 - Still in the early days of rolling out DevSecOps |
 
-
 ---
-# Hello DevOps!
-* People first
-  * You've been telling your teams to endorse [more] responsibilities.
-  * You've been telling your developers to build & run
-    * ... and be on-call.
-  * You've been telling your Ops guys to get curious about the software they're running
+<span style="color:gray">Will your DevOps team embrace security?</span>
+* You've been telling your teams to endorse [more] responsibilities.
+* You've been telling your developers to build & run
+  * ... and be on-call.
+* You've been telling your Ops guys to get curious about the software they're running
+
+Now, you're going to tell them to do security too.
 
 --> Without the right people, you're doomed to fail.
 
 ---
-# Goals of DevSecOps - bring security forward
-* Intrinsic security while building (bake in, not bolt on)
-* Compliance (i.e. audit trails, reduce human errors)
+<span style="color:gray">A few challenges</span>
 
-## anti-patterns
-* Lean Startup approach:  MVP -> release -> user feedback (iterate)
++++
+<span style="color:gray">Security design</span>
+* Code over documentation 
+  * hence over security design documentation
+* The fast iterations prohibits it
 
-* Using a traditional approach, how do you work with security teams? (no doc, no design)
++++
 
-## Challenges
-As seen in pure DevOps, the pillars are:
-  * Culture
-  * People
-  * Process
+* How much to invest in security if following a lean approach?
+* Understanding the hidden complexity of micro-services, containers and the like
+* Change control - Many small automated deployments Vs few big controlled ones
+* Sepration of Duties
+
 
 ---
-# DevOps and Security are no enemy
-## Gaps between CorpSec and DevOps teams
+<span style="color:gray">Meanwhile, in the land of reality</span>
 * Separation of duties
   * i.e., iso27001
 * Still under the impression that there should be few (and big) controlled changes
 * Security still at the perimeter
   * CorpSec often lacks pure engineering skills - spend too much time in word doc and procedures
   * DevOps just find easy workarounds (Ever seen the light at the end of a [ssh] tunnel?)
-* Code instead of W--- docs
+* "Talk is cheap, show me the code" -- Linus Torvalds
+* Intrinsic security while building (bake in, not bolt on)
 
 ---
 # DevOps and Security are no enemy (cont'd)
@@ -67,6 +68,9 @@ As seen in pure DevOps, the pillars are:
 # Secret management
 * Hashicorp vault
 * Keywhiz
+
+Threat modeling
+* JWT
 
 ---
 # Hush your ego, leverage your teammates
