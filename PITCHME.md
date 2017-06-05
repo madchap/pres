@@ -86,10 +86,11 @@ Replace manual checks and gates with automated counterparts
 ---
 <span style="color:gray">Still present in a lot of places</span>
 * Separation of duties (i.e., iso27001)
-* Most still in favor of few big "controlled" changes
-* Most say do not touch unless it is broken
-* Most don't care much about technical debt
-* Security still at the perimeter
+* Many: 
+  * are still in favor of few big "controlled" changes
+  * say do not touch unless it is broken
+  * don't care much about technical debt
+* Security still mainly at the perimeter
 * InfoSec often lacks pure engineering skills 
 
 Linus Torvalds says:  
@@ -118,6 +119,8 @@ May not be very DevSecOps specifics, but it is super important
 +++
 
 <span style="color:gray">Infra as code</span>
+- We use the combination of [pfk](https://theforeman.org/ "puppet/foreman/katello")
+
 <span style="display:block; text-align:right; color:white">\+ Automate your deployment <!-- .element: class="fragment" --></span>
 <span style="display:block; text-align:right; color:white">\+ Merge request your infra <!-- .element: class="fragment" --></span>
 <span style="display:block; text-align:right; color:white">\+ Consistency <!-- .element: class="fragment" --></span>
@@ -134,16 +137,17 @@ Example of ssh deployment issue with another puppet master
 +++
 
 <span style="color:gray">Introduce container scanning</span>
+
 Containers you use most likely contain vulnerabilities.
 
 Know about them.
 
-<span style="display:block; text-align:right; color:white">\+ [Clair](https://github.com/coreos/clair "Clair") (or Quay.io) from CoreOS <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ [Clair](https://github.com/coreos/clair "Clair") from CoreOS <!-- .element: class="fragment" --></span>
 <span style="display:block; text-align:right; color:white">\+ [docker-bench-security](https://github.com/docker/docker-bench-security "docker-bench-security")<!-- .element: class="fragment" --></span>
 
 Act.
-<span style="display:block; text-align:right; color:white">- [Apparmor profiles](https://docs.docker.com/engine/security/apparmor/ "Apparmor profiles")<!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">- [Seccomp profiles](https://docs.docker.com/engine/security/seccomp/ "seccomp profiles")<!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ [Apparmor profiles](https://docs.docker.com/engine/security/apparmor/ "Apparmor profiles")<!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ [Seccomp profiles](https://docs.docker.com/engine/security/seccomp/ "seccomp profiles")<!-- .element: class="fragment" --></span>
 
 +++
 
