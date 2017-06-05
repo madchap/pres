@@ -4,7 +4,6 @@ A journey to DevSecOps
 
 <!--- ![Masked Cucumber](assets/masked_cucumber_90px.jpg)  -->
 
-
 ---
 <span style="color:gray">Embracing DevOps at KS</span>
 
@@ -61,9 +60,9 @@ When doing MVP
 
 <span style="color:gray">Does everyone understand the complexity of</span>
 
-<span style="display:block; text-align:right">... micro-services <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right">... containers <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right">... cloud <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">... micro-services <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">... containers <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">... cloud <!-- .element: class="fragment" --></span>
 
 Note:
 * Vuln in containers
@@ -75,43 +74,93 @@ Note:
 
 +++
 
-<span style="color:gray">How do you handle change?</span>
+<span style="color:gray">How do you handle change</span>
+<span style="display:block; text-align:right; color:white">... when you can deploy several times a day? <!-- .element: class="fragment" --></span>
 
 Note:
 Many small automated deployments Vs few big controlled ones
+Remember the CAB once every 2 weeks to put a change through?
 
 +++
 
 <span style="color:gray">Separation of Duties</span>
-
-<span style="display:block; text-align:right">What? Devs have access to prod? 
+<span style="display:block; text-align:right; color:white">What? Devs have access to prod? 
 
 
 ---
-<span style="color:gray">Meanwhile, in the land of reality</span>
-* Separation of duties
-  * i.e., iso27001
-* Most are still under the impression that there should be few (and big) controlled changes
+<span style="color:gray">Still present in a lot of places</span>
+* Separation of duties (i.e., iso27001)
+* Most still in favor of few big "controlled" changes
 * Most say do not touch unless it is broken
 * Most don't care much about technical debt
 * Security still at the perimeter
-  * InfoSec often lacks pure engineering skills 
+* InfoSec often lacks pure engineering skills 
   
-> Talk is cheap, show me the code
+> "Talk is cheap, show me the code"
+> 
 > -- Linus Torvalds
 
 
 ---
+<span style="color:gray">Where to get started</span>
+<span style="display:block; text-align:right; color:white">Infrastructure</span>
+
++++
+
+<span style="color:gray">Infra as code</span>
+<span style="display:block; text-align:right; color:white">- Automate your deployment <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">- Merge request your infra <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">- Consistency <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">- Reduce config error/drift <!-- .element: class="fragment" --></span>
+
+Note:
+Example of ssh deployment issue with another puppet master
+
++++
+
+<span style="color:gray">Know about your cloud basics</span>
+<span style="display:block; text-align:right; color:white">- Scan your Security Groups for obvious ingress on 0.0.0.0/0</span>
+
++++
+
+<span style="color:gray">Introduce container scanning</span>
+Containers you use most likely contain vulnerabilities. 
+Know about them.
+
+<span style="display:block; text-align:right; color:white">- [Clair](https://github.com/coreos/clair) (or Quay.io) from CoreOS <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">- [docker-bench-security](https://github.com/docker/docker-bench-security)<!-- .element: class="fragment" --></span>
+
+Act.
+<span style="display:block; text-align:right; color:white">- [Apparmor profiles](https://docs.docker.com/engine/security/apparmor/)<!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">- [Seccomp profiles](https://docs.docker.com/engine/security/seccomp/)<!-- .element: class="fragment" --></span>
+
++++
+
+<span style="color:gray">Secrets management</span>
+Make sure your passwords, certificates or other keys are used in a safe manner.
+
+<span style="display:block; text-align:right; color:white">- [Vault](https://www.vaultproject.io/) from Hashicorp <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">- [KeyWhiz](https://square.github.io/keywhiz/) from Square Engineering <!-- .element: class="fragment" --></span>
+
++++
+
+<span style="color:gray">Logs management</span>
+- Normalize your logs across all your components and stacks
+- Enable real-time search across all your log sources
+- Leverage automated alerts
+- Enable log archives for compliance
+
+<span style="display:block; text-align:right; color:white">- [Graylog](https://www.graylog.org/) from Graylog </span>
+
+ 
 DevOps and Security are no enemy 
 * Frequent changes and software updates is good for security
   * How long do you think it takes to prepare an attack?
   * Most exploits are against legacy code
+  * It minimizes risks
+
 
 ---
-
-# Secret management
-* Hashicorp vault
-* Keywhiz
 
 Threat modeling
 * JWT
@@ -130,8 +179,6 @@ Threat modeling
 # Automate security into your CI/CD
 
 * i.e. Static analysis (i.e. sonarqube + OWASP plugin)
-* CoreOS clair for static image analysis (avoid poisoned image attacks)
-* Use docker-bench-security to spot `[WARN]` or higher
 * NetFlow your firewalls and see if your zones are still as trusted as it should
 
 ---
@@ -141,11 +188,6 @@ Threat modeling
   * (Not talking about NERFs battles here)
 * Bounty programs (i.e. hackerone.com, github security)
 * Pen testing
-
----
-# Automate
-## Infra as code
-Puppet
 
 ## Scans
 * Trigger a scan as part of your integration workflow
