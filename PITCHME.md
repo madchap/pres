@@ -1,9 +1,8 @@
 ### DevSecOps Lausanne meetup   
 ##### 13.06.2017
-A journey to DevSecOps
+DevSecOps intro &amp; infra insights
 
 <!--- ![Masked Cucumber](assets/masked_cucumber_90px.jpg)  -->
-
 
 ---
 <span style="color:gray">Embracing DevOps at KS</span>
@@ -100,9 +99,32 @@ Linus Torvalds says:
 And I say Word&copy; docs are expensive, and just nearly equally worthless.
 </div>
 
+
+---
+<span style="color:gray">Where to get started</span>
+<span style="display:block; text-align:right; color:white">Make security a first class citizen</span>
+
++++
+
+<span style="color:gray">Too few SecOps professionals are also coders or ops guys</span>
+<span style="display:block; text-align:right; color:white">\+ If you have </span>
+<span style="display:block; text-align:right; color:white">\+ Security obviously needs to be within the squad</span>
+<span style="display:block; text-align:right; color:white">\+ Train your teams for security</span>
+<span style="display:block; text-align:right; color:white">\+ Dedicate a champion</span>
+
+Note:
+OWASP provides good materials 
+
 ---
 <span style="color:gray">Where to get started</span>
 <span style="display:block; text-align:right; color:white">Infrastructure</span>
+
++++
+
+<span style="color:gray">Frequent changes and software updates is good for security</span>
+- How long do you think it takes to prepare an attack?
+- Most exploits are against legacy code
+- It minimizes deployment risks
 
 +++
 
@@ -111,6 +133,7 @@ And I say Word&copy; docs are expensive, and just nearly equally worthless.
 - Enable real-time search across all your log sources
 - Leverage automated alerts
 - Enable log archives for compliance
+- Leverage netflow
 
 <span style="display:block; text-align:right; color:white">[Graylog](https://www.graylog.org/) from Graylog </span>
 
@@ -122,10 +145,14 @@ May not be very DevSecOps specifics, but it is super important
 <span style="color:gray">Infra as code</span>
 - We use the combination of [Puppet/Foreman/Katello](https://theforeman.org/)
 
-<span style="display:block; text-align:right; color:white">\+ Automate your deployment <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ Automate your deployment </span>
 <span style="display:block; text-align:right; color:white">\+ Merge request your infra </span>
 <span style="display:block; text-align:right; color:white">\+ Consistency </span>
 <span style="display:block; text-align:right; color:white">\+ Reduce config error/drift </span>
+<span style="display:block; text-align:right; color:white">\+ Automatically install security updates </span>
+
+
+Other products such as [UpGuard](https://www.upguard.com) or [CloudPassage](https://www.cloudpassage.com) can help too.
 
 Note:
 Example of ssh deployment issue with another puppet master
@@ -134,6 +161,7 @@ Example of ssh deployment issue with another puppet master
 
 <span style="color:gray">Know about your cloud basics</span>
 <span style="display:block; text-align:right; color:white">\+ Scan security groups for ingress 0.0.0.0/0</span>
+<span style="display:block; text-align:right; color:white">\+ Make sure your images are always up-to-date</span>
 
 +++
 
@@ -141,12 +169,12 @@ Example of ssh deployment issue with another puppet master
 
 Containers you use most likely contain vulnerabilities.
 
-<span style="display:block; text-align:right; color:white">\+ [Clair](https://github.com/coreos/clair "Clair") <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">\+ [docker-bench-security](https://github.com/docker/docker-bench-security "docker-bench-security")<!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ [Clair](https://github.com/coreos/clair "Clair") </span>
+<span style="display:block; text-align:right; color:white">\+ [docker-bench-security](https://github.com/docker/docker-bench-security "docker-bench-security")</span>
 
 Act.
-<span style="display:block; text-align:right; color:white">\+ [Apparmor profiles](https://docs.docker.com/engine/security/apparmor/ "Apparmor profiles")<!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">\+ [Seccomp profiles](https://docs.docker.com/engine/security/seccomp/ "seccomp profiles")<!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ [Apparmor profiles](https://docs.docker.com/engine/security/apparmor/ "Apparmor profiles")</span>
+<span style="display:block; text-align:right; color:white">\+ [Seccomp profiles](https://docs.docker.com/engine/security/seccomp/ "seccomp profiles")</span>
 
 +++
 
@@ -154,24 +182,12 @@ Act.
 
 Make sure your passwords, certificates or other keys are used in a safe manner.
 
-<span style="display:block; text-align:right; color:white">\+ [Vault](https://www.vaultproject.io/ "Vault") from Hashicorp <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">\+ [KeyWhiz](https://square.github.io/keywhiz/ "Keywhiz") from Square Engineering <!-- .element: class="fragment" --></span>
-
-
----
-DevOps and Security are no enemy 
-* Frequent changes and software updates is good for security
-  * How long do you think it takes to prepare an attack?
-  * Most exploits are against legacy code
-  * It minimizes risks
+<span style="display:block; text-align:right; color:white">\+ [Vault](https://www.vaultproject.io/ "Vault") from Hashicorp</span>
+<span style="display:block; text-align:right; color:white">\+ [KeyWhiz](https://square.github.io/keywhiz/ "Keywhiz") from Square Engineering</span>
 
 
 ---
 
-Threat modeling
-* JWT
-
----
 # Hush your ego, leverage your teammates
 * Ask your Ops guys
   * [Good] network guys usually have some security skills under the belt
@@ -185,10 +201,7 @@ Threat modeling
 # Automate security into your CI/CD
 
 * i.e. Static analysis (i.e. sonarqube + OWASP plugin)
-* NetFlow your firewalls and see if your zones are still as trusted as it should
 
----
-# Experiment
 * Capture the Flag
 * Read/Blue teams
   * (Not talking about NERFs battles here)
@@ -211,6 +224,9 @@ Threat modeling
 ## Adapt your monitoring
 * Dynamic monitoring for containers and cloud workloads
 * Constant redployment
+
+---
+Questions? (and hopefully answers)
 
 ---
 # References
