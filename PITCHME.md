@@ -7,7 +7,7 @@ DevSecOps intro &amp; infra insights
 <span style="color:gray">Embracing DevOps at KS</span>
 
 <!--- ![Masked Cucumber](assets/masked_cucumber_90px.jpg)  -->
-![DevOps_SouthPark](assets/devops_southpark_600.png)
+![DevOps_SouthPark](assets/devops_southpark_400.png?style=centerimg)
 <!--- ![ITIL is evil](assets/ITILisevil_avg.png?style=centerimg) -->
 
 - Re-org + new management |
