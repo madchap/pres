@@ -19,10 +19,6 @@ A journey to DevSecOps
 - Always-on "Designated ops" in "solutions" team |
 - Still in the early days of rolling out DevSecOps |
 
----
- <span style="color:gray">Back to the future</span>
-* I've been told DevOps was like back in the 70's and 80's, but I am too young to remember :-)
-
 ![ITIL is evil](assets/ITILisevil_avg.png)
 
 ---
