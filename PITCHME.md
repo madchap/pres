@@ -61,11 +61,9 @@ When doing MVP
 
 <span style="color:gray">Does everyone understand the complexity of</span>
 
-  ... micro-services <!-- .element: class="fragment" -->
-
-  ... containers <!-- .element: class="fragment" -->
-
-  ... cloud <!-- .element: class="fragment" -->
+<span style="display:block; text-align:right">... micro-services <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right">... containers <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right">... cloud <!-- .element: class="fragment" --></span>
 
 Note:
 * Vuln in containers
