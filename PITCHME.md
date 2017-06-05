@@ -119,7 +119,7 @@ May not be very DevSecOps specifics, but it is super important
 +++
 
 <span style="color:gray">Infra as code</span>
-- We use the combination of [pfk](https://theforeman.org/ "puppet/foreman/katello")
+- We use the combination of [Puppet/Foreman/Katello](https://theforeman.org/ "Puppet/Foreman/Katello")
 
 <span style="display:block; text-align:right; color:white">\+ Automate your deployment <!-- .element: class="fragment" --></span>
 <span style="display:block; text-align:right; color:white">\+ Merge request your infra <!-- .element: class="fragment" --></span>
@@ -139,8 +139,6 @@ Example of ssh deployment issue with another puppet master
 <span style="color:gray">Introduce container scanning</span>
 
 Containers you use most likely contain vulnerabilities.
-
-Know about them.
 
 <span style="display:block; text-align:right; color:white">\+ [Clair](https://github.com/coreos/clair "Clair") from CoreOS <!-- .element: class="fragment" --></span>
 <span style="display:block; text-align:right; color:white">\+ [docker-bench-security](https://github.com/docker/docker-bench-security "docker-bench-security")<!-- .element: class="fragment" --></span>
