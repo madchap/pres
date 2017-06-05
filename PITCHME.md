@@ -108,7 +108,7 @@ CorpSec is yet another split
 
 +++
 
-<span style="color:gray">Too few SecOps professionals are also coders or infra guys</span>
+<span style="color:gray">SecOps professionals are usually no coders or infra guys</span>
 
 <span style="display:block; text-align:right; color:white">\+ Security obviously needs to be alive within the squad</span>
 <span style="display:block; text-align:right; color:white">\+ Train your teams for security</span>
@@ -121,9 +121,11 @@ OWASP provides good materials
 
 <span style="color:gray">Hush your ego, leverage your teammates</span>
 
+![Devs_need_heroes](assets/sysadmin_dev_need_heroes.jpg)
+
 - Ask your Ops guys
-  - [Good] network guys usually have some security skills under the belt
-  - [Good] systems engineers usually know how to secure an O/S or a middleware component
+  - Network guys usually may have some security skills 
+  - Some systems engineers may know how to secure a middleware component
 
 - Security reviews
   - Not only between Devs as "code reviews"
@@ -162,7 +164,7 @@ May not be very DevSecOps specifics, but it is super important
 
 <span style="color:gray">Infra as code</span>
 
-We use the combination of [Puppet/Foreman/Katello](https://theforeman.org/) and [Jenkins](https://www.cloudbees.com/jenkins/jenkins-2)
+We use a combination of [Puppet/Foreman/Katello](https://theforeman.org/) and [Jenkins](https://www.cloudbees.com/jenkins/jenkins-2)
 
 <span style="display:block; text-align:right; color:white">\+ Automate your deployment </span>
 <span style="display:block; text-align:right; color:white">\+ Merge request your infra </span>
@@ -240,19 +242,10 @@ If at all possible, get a second -- outside -- opinion.
 <span style="display:block; text-align:right; color:white">\+ Red Vs Blue teams</span>
 <span style="display:block; text-align:right; color:white">\+ Pen testing</span>
 
----
-# Measure
----
-
-## Secure your code repo
-* Wealth of info not to fall in the wrong hands
-
-## Adapt your monitoring
-* Dynamic monitoring for containers and cloud workloads
-* Constant redployment
 
 ---
 Questions? (and hopefully answers)
+
 
 ---
 References
