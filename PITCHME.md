@@ -1,16 +1,18 @@
-### DevSecOps Lausanne meetup   13.06.2017
+### DevSecOps Lausanne meetup   
+##### 13.06.2017
 A journey to DevSecOps
 
 ![Masked Cucumber](assets/masked_cucumber_90px.jpg)
+
+
 ---
-<span style="color:gray">Embracing DevOps</span>
+<span style="color:gray">Embracing DevOps at KS</span>
 
 - Re-org 
 - New management
 - **Engineering tech leads empowered**
 
----
-<span style="color:gray">How we do DevOps</span>
++++
 
 ![ITIL is evil](assets/ITILisevil_avg.png)
 
@@ -19,32 +21,55 @@ A journey to DevSecOps
 - Always-on "Designated ops" in "solutions" team |
 - Still in the early days of rolling out DevSecOps |
 
+
 ---
 <span style="color:gray">Will your DevOps team embrace security?</span>
-* You've been telling your teams to endorse [more] responsibilities.
-* You've been telling your developers to build & run
-  * ... and be on-call.
-* You've been telling your Ops guys to get curious about the software they're running
+* You've been telling your teams...
+  * Build & run!
+  * You own it, you're responsible for it!
+  * You're on-call! 
 
 Now, you're going to tell them to do security too.
 
---> Without the right people, you're doomed to fail.
+--> You *need* the right people.
+
 
 ---
 <span style="color:gray">A few challenges</span>
 
 +++
+
 <span style="color:gray">Security design</span>
 * Code over documentation 
-  * hence over security design documentation
+  * Hence over security design documentation -- likely no documentation
 * The fast iterations prohibits it
 
 +++
 
-* How much to invest in security if following a lean approach?
-* Understanding the hidden complexity of micro-services, containers and the like
-* Change control - Many small automated deployments Vs few big controlled ones
-* Sepration of Duties
+How effort in security, to possibly just throw things away?
+
+Note:
+When doing MVP
+
++++
+
+Does everyone understand the complexity of micro-services, containers and the like?
+
+Note:
+* Vuln in containers
+* or in underlying stacks used
+* Secrets
+
++++
+
+How do you handle change?
+
+Note:
+Many small automated deployments Vs few big controlled ones
+
++++
+
+Separation of Duties
 
 
 ---
@@ -52,14 +77,17 @@ Now, you're going to tell them to do security too.
 * Separation of duties
   * i.e., iso27001
 * Still under the impression that there should be few (and big) controlled changes
+* Do not touch unless it is broken
+* Don't care much about technical debt
 * Security still at the perimeter
-  * CorpSec often lacks pure engineering skills - spend too much time in word doc and procedures
-  * DevOps just find easy workarounds (Ever seen the light at the end of a [ssh] tunnel?)
-* "Talk is cheap, show me the code" -- Linus Torvalds
-* Intrinsic security while building (bake in, not bolt on)
+  * InfoSec often lacks pure engineering skills - spend too much time in word doc and procedures, not enough in code.
+  
+> Talk is cheap, show me the code
+> -- Linus Torvalds
+
 
 ---
-# DevOps and Security are no enemy (cont'd)
+DevOps and Security are no enemy 
 * Frequent changes and software updates is good for security
   * How long do you think it takes to prepare an attack?
   * Most exploits are against legacy code
