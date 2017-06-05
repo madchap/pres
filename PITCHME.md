@@ -1,6 +1,6 @@
 ### DevSecOps Lausanne meetup   
 ##### 13.06.2017
-DevSecOps intro &amp; infra insights
+DevSecOps - thoughts from an infra guy
 
 
 ---
@@ -34,7 +34,7 @@ You <span style="color:white">*need*</span> the right people.
 
 +++
 
-<span style="color:gray">Where are is your security design documented?</span>
+<span style="color:gray">Where is your security design documented?</span>
 <span style="display:block; text-align:right; color:white">... err, code over documentation my friend! <!-- .element: class="fragment" --></span>
 
 
@@ -94,10 +94,13 @@ Replace manual checks and gates with automated counterparts
 * InfoSec often lacks pure engineering skills 
 
 Linus Torvalds says:  
-> "Talk is cheap, show me the code"
+> "Talk is cheap, show me the code."
 
-And I say Word&copy; docs are expensive, and just nearly equally worthless.
+And I say "Word&copy; docs are expensive, show me the code."
 
+Note:
+Classic org separates IT production from R&D
+CorpSec is yet another split
 
 ---
 <span style="color:gray">Where to get started</span>
@@ -106,12 +109,28 @@ And I say Word&copy; docs are expensive, and just nearly equally worthless.
 +++
 
 <span style="color:gray">Too few SecOps professionals are also coders or infra guys</span>
-<span style="display:block; text-align:right; color:white">\+ Security obviously needs to be live within the squad</span>
+
+<span style="display:block; text-align:right; color:white">\+ Security obviously needs to be alive within the squad</span>
 <span style="display:block; text-align:right; color:white">\+ Train your teams for security</span>
 <span style="display:block; text-align:right; color:white">\+ Dedicate a champion</span>
 
 Note:
 OWASP provides good materials 
+
++++
+
+<span style="color:gray">Hush your ego, leverage your teammates</span>
+
+- Ask your Ops guys
+  - [Good] network guys usually have some security skills under the belt
+  - [Good] systems engineers usually know how to secure an O/S or a middleware component
+
+- Security reviews
+  - Not only between Devs as "code reviews"
+  - Can also happen between Ops, Devs and Secs guys
+
+<span style="display:block; text-align:right; color:white">Provoke the mindset change!</span>
+
 
 ---
 <span style="color:gray">Where to get started</span>
@@ -119,16 +138,17 @@ OWASP provides good materials
 
 +++
 
-<span style="color:gray">Frequent changes and software updates is good for security</span>
+<span style="color:gray">Frequent changes and updates are good for security</span>
 - How long do you think it takes to prepare an attack?
-- Most exploits are against legacy code
-- It minimizes deployment risks
+- Most exploits are against legacy code.
+- It minimizes deployment risks over time.
 
 +++
 
 <span style="color:gray">Logs management</span>
-- Normalize your logs across all your components and stacks
+- Normalize your logs across all your components
 - Enable real-time search across all your log sources
+- Leverage dashboards
 - Leverage automated alerts
 - Enable log archives for compliance
 - Leverage netflow
@@ -141,6 +161,7 @@ May not be very DevSecOps specifics, but it is super important
 +++
 
 <span style="color:gray">Infra as code</span>
+
 We use the combination of [Puppet/Foreman/Katello](https://theforeman.org/) and [Jenkins](https://www.cloudbees.com/jenkins/jenkins-2)
 
 <span style="display:block; text-align:right; color:white">\+ Automate your deployment </span>
@@ -161,16 +182,20 @@ Example of ssh deployment issue with another puppet master
 
 Leverage your configuration management tool to
 
-- Harden your configuration management tool (e.g. basic hardening for puppet [puppet-os-hardening ](https://github.com/dev-sec/puppet-os-hardening))
-- Harden your systems (e.g. [OSSEC](https://ossec.github.io))
-- Harden your CI/CD infrastructure
-- Shutdown unnessary services, hence reducing attack surface
-- Enable selinux / apparmor
+- Harden your configuration management tool 
+- Harden your systems 
+- Harden your CI/CD infrastructure and your code repositories
+- Shutdown unnecessary services, reduce the attack surface
+- Enable SElinux / apparmor
 - Make sure logs are shipped to your central log management system
+
+<span style="display:block; text-align:right; color:white">\+ [puppet-os-hardening](https://github.com/dev-sec/puppet-os-hardening)</span>
+<span style="display:block; text-align:right; color:white">\+ [OSSEC](https://ossec.github.io)</span>
 
 +++
 
 <span style="color:gray">Know about your cloud basics</span>
+
 Include in your pipeline as much as possible
 
 <span style="display:block; text-align:right; color:white">\+ Scan security groups for ingress 0.0.0.0/0</span>
@@ -190,7 +215,8 @@ Containers you use most likely contain vulnerabilities.
 <span style="display:block; text-align:right; color:white">\+ [Clair](https://github.com/coreos/clair "Clair") </span>
 <span style="display:block; text-align:right; color:white">\+ [docker-bench-security](https://github.com/docker/docker-bench-security "docker-bench-security")</span>
 
-Act.
+Protect them with existing tech
+
 <span style="display:block; text-align:right; color:white">\+ [Apparmor profiles](https://docs.docker.com/engine/security/apparmor/ "Apparmor profiles")</span>
 <span style="display:block; text-align:right; color:white">\+ [Seccomp profiles](https://docs.docker.com/engine/security/seccomp/ "seccomp profiles")</span>
 
@@ -203,38 +229,20 @@ Make sure your passwords, certificates or other keys are used in a safe manner.
 <span style="display:block; text-align:right; color:white">\+ [Vault](https://www.vaultproject.io/ "Vault") from Hashicorp</span>
 <span style="display:block; text-align:right; color:white">\+ [KeyWhiz](https://square.github.io/keywhiz/ "Keywhiz") from Square Engineering</span>
 
++++
 
----
+<span style="color:gray">Assess</span>
 
-# Hush your ego, leverage your teammates
-* Ask your Ops guys
-  * [Good] network guys usually have some security skills under the belt
-  * [Good] systems engineers usually know how to secure an O/S or a middleware component
+If at all possible, get a second -- outside -- opinion.
 
-* Code reviews
-  * Not only between Devs
-  * Can also happen with Ops or Secs guys
-
----
-# Automate security into your CI/CD
-
-* i.e. Static analysis (i.e. sonarqube + OWASP plugin)
-
-* Capture the Flag
-* Read/Blue teams
-  * (Not talking about NERFs battles here)
-* Bounty programs (i.e. hackerone.com, github security)
-* Pen testing
-
-## Scans
-* Trigger a scan as part of your integration workflow
+<span style="display:block; text-align:right; color:white">\+ [hackerone](https://www.hackerone.com) Vuln &amp; bug bounty platform</span>
+<span style="display:block; text-align:right; color:white">\+ [Github security](https://bounty.github.com)</span>
+<span style="display:block; text-align:right; color:white">\+ Red Vs Blue teams</span>
+<span style="display:block; text-align:right; color:white">\+ Pen testing</span>
 
 ---
 # Measure
 ---
-# What can you do?
-* Adopt a software security engineer / infra security engineer
-* Have someone volunteer to wear that hat
 
 ## Secure your code repo
 * Wealth of info not to fall in the wrong hands
