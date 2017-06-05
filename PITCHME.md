@@ -4,17 +4,13 @@ A journey to DevSecOps
 
 <!--- ![Masked Cucumber](assets/masked_cucumber_90px.jpg)  -->
 
+
 ---
 <span style="color:gray">Embracing DevOps at KS</span>
 
-- Re-org 
-- New management
-- **Engineering tech leads empowered**
-
-+++
-
 ![ITIL is evil](assets/ITILisevil_avg.png?style=centerimg)
 
+- Re-org + new management
 - Knock walls down (literally) |
 - Empower engineering leads |
 - Always-on "Designated ops" in "solutions" team |
@@ -50,7 +46,6 @@ The fast iterations prohibits it
 +++
 
 <span style="color:gray">How much effort to put in security</span>
-  
 <span style="display:block; text-align:right; color:white">... to possibly just throw things away? <!-- .element: class="fragment" --></span>
 
 Note:
@@ -84,8 +79,10 @@ Remember the CAB once every 2 weeks to put a change through?
 +++
 
 <span style="color:gray">Separation of Duties</span>
-<span style="display:block; text-align:right; color:white">What? Devs have access to prod? 
+<span style="display:block; text-align:right; color:white">What? Devs have access to prod? <!-- .element: class="fragment" --></span>
 
+Note:
+Replace manual checks and gates with automated counterparts
 
 ---
 <span style="color:gray">Still present in a lot of places</span>
@@ -95,10 +92,11 @@ Remember the CAB once every 2 weeks to put a change through?
 * Most don't care much about technical debt
 * Security still at the perimeter
 * InfoSec often lacks pure engineering skills 
-  
+
+Linus Torvalds says:  
 > "Talk is cheap, show me the code"
-> 
-> -- Linus Torvalds
+
+And I say Word&copy; docs are expensive, and just nearly equally worthless.
 
 
 ---
