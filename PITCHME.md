@@ -123,7 +123,7 @@ OWASP provides good materials
 
 <span style="color:gray">Hush your ego, leverage talend around you</span>
 
-![Sysadmin_day](assets/SysadminDay_300.png)
+![Sysadmin_day](assets/SysAdminDay_300.png)
 
 - Ask your Ops guys
   - Network guys usually may have some security skills 
