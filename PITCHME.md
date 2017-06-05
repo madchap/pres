@@ -50,7 +50,7 @@ You *need* the right people.
 
 How much effort to put in security
   
-<span style="display:block; text-align:right">... to possibly just throw things away?</span> |
+<span style="display:block; text-align:right">... to possibly just throw things away? <!-- .element: class="fragment" --></span>
 
 Note:
 When doing MVP
