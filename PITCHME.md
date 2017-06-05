@@ -10,7 +10,7 @@ A journey to DevSecOps
 
 ![ITIL is evil](assets/ITILisevil_avg.png?style=centerimg)
 
-- Re-org + new management
+- Re-org + new management |
 - Knock walls down (literally) |
 - Empower engineering leads |
 - Always-on "Designated ops" in "solutions" team |
@@ -54,7 +54,6 @@ When doing MVP
 +++
 
 <span style="color:gray">Does everyone understand the complexity of</span>
-
 <span style="display:block; text-align:right; color:white">... micro-services <!-- .element: class="fragment" --></span>
 <span style="display:block; text-align:right; color:white">... containers <!-- .element: class="fragment" --></span>
 <span style="display:block; text-align:right; color:white">... cloud <!-- .element: class="fragment" --></span>
@@ -105,11 +104,24 @@ And I say Word&copy; docs are expensive, and just nearly equally worthless.
 
 +++
 
+<span style="color:gray">Logs management</span>
+- Normalize your logs across all your components and stacks
+- Enable real-time search across all your log sources
+- Leverage automated alerts
+- Enable log archives for compliance
+
+<span style="display:block; text-align:right; color:white">[Graylog](https://www.graylog.org/) from Graylog </span>
+
+Note:
+May not be very DevSecOps specifics, but it is super important
+
++++
+
 <span style="color:gray">Infra as code</span>
-<span style="display:block; text-align:right; color:white">- Automate your deployment <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">- Merge request your infra <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">- Consistency <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">- Reduce config error/drift <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ Automate your deployment <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ Merge request your infra <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ Consistency <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ Reduce config error/drift <!-- .element: class="fragment" --></span>
 
 Note:
 Example of ssh deployment issue with another puppet master
@@ -117,38 +129,29 @@ Example of ssh deployment issue with another puppet master
 +++
 
 <span style="color:gray">Know about your cloud basics</span>
-<span style="display:block; text-align:right; color:white">- Scan your Security Groups for obvious ingress on 0.0.0.0/0</span>
+<span style="display:block; text-align:right; color:white">\+ Scan Security Groups for ingress 0.0.0.0/0</span>
 
 +++
 
 <span style="color:gray">Introduce container scanning</span>
-Containers you use most likely contain vulnerabilities. 
+Containers you use most likely contain vulnerabilities.
+
 Know about them.
 
-<span style="display:block; text-align:right; color:white">- [Clair](https://github.com/coreos/clair) (or Quay.io) from CoreOS <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">- [docker-bench-security](https://github.com/docker/docker-bench-security)<!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ [Clair](https://github.com/coreos/clair "Clair") (or Quay.io) from CoreOS <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ [docker-bench-security](https://github.com/docker/docker-bench-security "docker-bench-security")<!-- .element: class="fragment" --></span>
 
 Act.
-<span style="display:block; text-align:right; color:white">- [Apparmor profiles](https://docs.docker.com/engine/security/apparmor/)<!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">- [Seccomp profiles](https://docs.docker.com/engine/security/seccomp/)<!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">- [Apparmor profiles](https://docs.docker.com/engine/security/apparmor/ "Apparmor profiles")<!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">- [Seccomp profiles](https://docs.docker.com/engine/security/seccomp/ "seccomp profiles")<!-- .element: class="fragment" --></span>
 
 +++
 
 <span style="color:gray">Secrets management</span>
 Make sure your passwords, certificates or other keys are used in a safe manner.
 
-<span style="display:block; text-align:right; color:white">- [Vault](https://www.vaultproject.io/) from Hashicorp <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">- [KeyWhiz](https://square.github.io/keywhiz/) from Square Engineering <!-- .element: class="fragment" --></span>
-
-+++
-
-<span style="color:gray">Logs management</span>
-- Normalize your logs across all your components and stacks
-- Enable real-time search across all your log sources
-- Leverage automated alerts
-- Enable log archives for compliance
-
-<span style="display:block; text-align:right; color:white">- [Graylog](https://www.graylog.org/) from Graylog </span>
+<span style="display:block; text-align:right; color:white">- [Vault](https://www.vaultproject.io/ "Vault") from Hashicorp <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">- [KeyWhiz](https://square.github.io/keywhiz/ "Keywhiz") from Square Engineering <!-- .element: class="fragment" --></span>
 
  
 DevOps and Security are no enemy 
