@@ -54,9 +54,9 @@ When doing MVP
 +++
 
 <span style="color:gray">Does everyone understand the complexity of</span>
-<span style="display:block; text-align:right; color:white">? micro-services <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">? containers <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">? cloud <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">... micro-services <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">... containers <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">... cloud <!-- .element: class="fragment" --></span>
 
 Note:
 * Vuln in containers
@@ -96,7 +96,7 @@ Replace manual checks and gates with automated counterparts
 Linus Torvalds says:  
 > "Talk is cheap, show me the code."
 
-And I say "Word&copy; docs are expensive, show me the code."
+I say "Word&copy; docs are expensive, show me the code."
 
 Note:
 Classic org separates IT production from R&D
@@ -114,7 +114,8 @@ CorpSec is yet another split
 <span style="display:block; text-align:right; color:white">\+ Train your teams for security</span>
 <span style="display:block; text-align:right; color:white">\+ Dedicate a champion</span>
 
-It is **hard** to find a pure DevSecOps guy.
+
+It is  <span style="color:white">;*hard*</span> to find a pure DevSecOps guy.
 
 Note:
 OWASP provides good materials 
@@ -124,7 +125,7 @@ OWASP provides good materials
 <span style="color:gray">Hush your ego, leverage talend around you</span>
 
 ![Sysadmin_day](assets/SysAdminDay_300.png?style=centerimg)
-- Ask your Ops or Dev friend for a hint
+- Ask your Op or Dev friend for a hint
 
 - Security reviews
   - Does not only between Devs as "code reviews"
@@ -154,7 +155,7 @@ OWASP provides good materials
 - Enable log archives for compliance
 - Leverage netflow
 
-<span style="display:block; text-align:right; color:white">[Graylog](https://www.graylog.org/)</span>
+<span style="display:block; text-align:right; color:white">\+ [Graylog](https://www.graylog.org/)</span>
 
 Note:
 May not be very DevSecOps specifics, but it is super important
@@ -199,7 +200,7 @@ Include in your pipeline as much as possible
 
 <span style="display:block; text-align:right; color:white">\+ Scan security groups for ingress 0.0.0.0/0</span>
 <span style="display:block; text-align:right; color:white">\+ Make sure your images are always up-to-date</span>
-<span style="display:block; text-align:right; color:white">\+ Perform regular perimater scans as well</span>
+<span style="display:block; text-align:right; color:white">\+ Perform regular perimeter scans (never hurts)</span>
 
 Note:
 Cannot hurt to have regular scans if actually looking at results
@@ -246,10 +247,11 @@ Questions? (and hopefully answers)
 
 ---
 References
-
+<span style="display:block; font-size:0.6em">
 - Veracode: The Developer's Guide to the DevSecOps galaxy
 - DevOps and Security: From the Trenches to Command Centers: https://blog.xebialabs.com/2017/05/04/devops-security-trenches-command-centers
 - How Etsy makes Devops work: http://www.networkworld.com/article/2886672/software/how-etsy-makes-devops-work.html
 - DevSecOps: http://www.oreilly.com/webops-perf/free/files/devopssec.pdf
 - The treacherous 12: https://downloads.cloudsecurityalliance.org/assets/research/top-threats/Treacherous-12_Cloud-Computing_Top-Threats.pdf
 - DevOps explained: https://www.niceideas.ch/roller2/badtrash/entry/devops-explained
+</span>
