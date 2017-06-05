@@ -108,11 +108,13 @@ CorpSec is yet another split
 
 +++
 
-<span style="color:gray">SecOps professionals are usually no coders or infra guys</span>
+<span style="color:gray">SecOps pros are usually no coders or infra guys</span>
 
 <span style="display:block; text-align:right; color:white">\+ Security obviously needs to be alive within the squad</span>
 <span style="display:block; text-align:right; color:white">\+ Train your teams for security</span>
 <span style="display:block; text-align:right; color:white">\+ Dedicate a champion</span>
+
+It is **hard** to find a pure DevSecOps guy.
 
 Note:
 OWASP provides good materials 
@@ -121,7 +123,7 @@ OWASP provides good materials
 
 <span style="color:gray">Hush your ego, leverage your teammates</span>
 
-![Devs_need_heroes](assets/sysadmin_dev_need_heroes.jpg)
+> Sysadmin: because even developers need heroes
 
 - Ask your Ops guys
   - Network guys usually may have some security skills 
