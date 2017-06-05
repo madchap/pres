@@ -4,7 +4,7 @@ DevSecOps intro &amp; infra insights
 
 
 ---
-<span style="color:gray; text-align:center">Embracing DevOps at KS</span>
+<span style="color:gray; display:block; text-align:center">Embracing DevOps at KS</span>
 
 <!--- ![Masked Cucumber](assets/masked_cucumber_90px.jpg)  -->
 ![DevOps_SouthPark](assets/devops_southpark_400.png?style=centerimg)
