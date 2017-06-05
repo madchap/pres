@@ -1,4 +1,5 @@
 ### DevSecOps Lausanne meetup   
+#### Fred Blaise, Kudelski Security
 ##### 13.06.2017
 DevSecOps - thoughts from an infra guy
 
@@ -142,9 +143,9 @@ OWASP provides good materials
 +++
 
 <span style="color:gray">Frequent changes and updates are good for security</span>
-- How long do you think it takes to prepare an attack?
-- Most exploits are against legacy code.
-- It minimizes deployment risks over time.
+<span style="display:block; text-align:right; color:white">\+ How long do you think it takes to prepare an attack?
+<span style="display:block; text-align:right; color:white">\+ Most exploits are against legacy code.
+<span style="display:block; text-align:right; color:white">\+ Minimizes deployment risks over time.
 
 +++
 
