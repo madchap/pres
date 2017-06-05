@@ -121,9 +121,9 @@ OWASP provides good materials
 
 +++
 
-<span style="color:gray">Hush your ego, leverage your teammates</span>
+<span style="color:gray">Hush your ego, leverage talend around you</span>
 
-> Sysadmin: because even developers need heroes
+![Sysadmin_day](assets/SysadminDay_300.png)
 
 - Ask your Ops guys
   - Network guys usually may have some security skills 
