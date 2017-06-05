@@ -14,7 +14,7 @@ A journey to DevSecOps
 
 +++
 
-<span style="text-align: center">![ITIL is evil](assets/ITILisevil_avg.png)</span>
+<span display: block; style="text-align: center">![ITIL is evil](assets/ITILisevil_avg.png)</span>
 
 - Knock walls down (literally) |
 - Empower engineering leads |
