@@ -39,10 +39,14 @@ You *need* the right people.
 
 +++
 
-<span style="color:gray">Security design</span>
-* Code over documentation 
-  * Hence over security design documentation -- likely no documentation
-* The fast iterations prohibits it
+<span style="color:gray">Hand over your security design</span>
+<span style="display:block; text-align:right; color:white">... err, code over documentation my friend! <!-- .element: class="fragment" --></span>
+
+
+Note:
+Code over documentation 
+Hence over security design documentation -- likely no documentation
+The fast iterations prohibits it
 
 +++
 
@@ -55,12 +59,13 @@ When doing MVP
 
 +++
 
-<span style="color:gray">Complexity</span>
+<span style="color:gray">Does everyone understand the complexity of</span>
 
-Does everyone understand the complexity of 
-  ... micro-services
-  ... containers 
-  ... cloud
+  ... micro-services <!-- .element: class="fragment" -->
+
+  ... containers <!-- .element: class="fragment" -->
+
+  ... cloud <!-- .element: class="fragment" -->
 
 Note:
 * Vuln in containers
@@ -81,7 +86,7 @@ Many small automated deployments Vs few big controlled ones
 
 <span style="color:gray">Separation of Duties</span>
 
-What? Devs have access to prod?
+<span style="display:block; text-align:right">What? Devs have access to prod? 
 
 
 ---
