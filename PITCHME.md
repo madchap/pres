@@ -1,4 +1,4 @@
-### DevSecOps Lausanne meetup - 13.06.2017
+### DevSecOps Lausanne meetup   13.06.2017
 A journey to DevSecOps
 
 ![Masked Cucumber](assets/masked_cucumber_90px.jpg)
