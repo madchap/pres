@@ -33,7 +33,7 @@ You <span style="color:white">*need*</span> the right people.
 
 +++
 
-<span style="color:gray">Hand over your security design</span>
+<span style="color:gray">Where are is your security design documented?</span>
 <span style="display:block; text-align:right; color:white">... err, code over documentation my friend! <!-- .element: class="fragment" --></span>
 
 
@@ -53,9 +53,9 @@ When doing MVP
 +++
 
 <span style="color:gray">Does everyone understand the complexity of</span>
-<span style="display:block; text-align:right; color:white">... micro-services <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">... containers <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">... cloud <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">? micro-services <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">? containers <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">? cloud <!-- .element: class="fragment" --></span>
 
 Note:
 * Vuln in containers
@@ -83,8 +83,7 @@ Note:
 Replace manual checks and gates with automated counterparts
 
 ---
-<span style="color:gray">Still present in a lot of places</span>
-<div style="display:block; font-size:0.8em">
+<span style="color:gray">What is still present in a lot of places</span>
 * Separation of duties (i.e., iso27001)
 * Many: 
   * are still in favor of few big "controlled" changes
@@ -97,7 +96,6 @@ Linus Torvalds says:
 > "Talk is cheap, show me the code"
 
 And I say Word&copy; docs are expensive, and just nearly equally worthless.
-</div>
 
 
 ---
@@ -106,9 +104,8 @@ And I say Word&copy; docs are expensive, and just nearly equally worthless.
 
 +++
 
-<span style="color:gray">Too few SecOps professionals are also coders or ops guys</span>
-<span style="display:block; text-align:right; color:white">\+ If you have </span>
-<span style="display:block; text-align:right; color:white">\+ Security obviously needs to be within the squad</span>
+<span style="color:gray">Too few SecOps professionals are also coders or infra guys</span>
+<span style="display:block; text-align:right; color:white">\+ Security obviously needs to be live within the squad</span>
 <span style="display:block; text-align:right; color:white">\+ Train your teams for security</span>
 <span style="display:block; text-align:right; color:white">\+ Dedicate a champion</span>
 
@@ -143,7 +140,7 @@ May not be very DevSecOps specifics, but it is super important
 +++
 
 <span style="color:gray">Infra as code</span>
-- We use the combination of [Puppet/Foreman/Katello](https://theforeman.org/)
+We use the combination of [Puppet/Foreman/Katello](https://theforeman.org/) and [Jenkins](https://www.cloudbees.com/jenkins/jenkins-2)
 
 <span style="display:block; text-align:right; color:white">\+ Automate your deployment </span>
 <span style="display:block; text-align:right; color:white">\+ Merge request your infra </span>
@@ -159,9 +156,29 @@ Example of ssh deployment issue with another puppet master
 
 +++
 
+<span style="color:gray">Harden your O/S</span>
+
+Leverage your configuration management tool to
+
+- Harden your configuration management tool (e.g. basic hardening for puppet [puppet-os-hardening ](https://github.com/dev-sec/puppet-os-hardening))
+- Harden your systems (e.g. [OSSEC](https://ossec.github.io))
+- Harden your CI/CD infrastructure
+- Shutdown unnessary services, hence reducing attack surface
+- Enable selinux / apparmor
+- Make sure logs are shipped to your central log management system
+
++++
+
 <span style="color:gray">Know about your cloud basics</span>
+Include in your pipeline as much as possible
+
 <span style="display:block; text-align:right; color:white">\+ Scan security groups for ingress 0.0.0.0/0</span>
 <span style="display:block; text-align:right; color:white">\+ Make sure your images are always up-to-date</span>
+<span style="display:block; text-align:right; color:white">\+ Perform regular perimater scans as well</span>
+
+Note:
+Cannot hurt to have regular scans if actually looking at results
+Diff can be automated and possibly 
 
 +++
 
