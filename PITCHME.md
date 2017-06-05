@@ -1,5 +1,6 @@
 ## DevSecOps Lausanne meetup - 13.06.2017
 A journey to DevSecOps
+![Masked Cucumber](assets/masked_cucumber_90px.jpg)
 ---
 <span style="color:gray">Embracing DevOps</span>
 
@@ -7,12 +8,10 @@ A journey to DevSecOps
 - New management
 - **Engineering tech leads empowered**
 
-<span style="color: #e49436; text-transform: none">[Sponsor plug: I am hiring!]</span>
-
 ---
 <span style="color:gray">How we do DevOps</span>
 
-![Masked Cucumber](assets/masked_cucumber_90px.jpg) ![ITIL is evil](assets/ITILisevil_avg.png)
+![ITIL is evil](assets/ITILisevil_avg.png)
 
 - Knock walls down (literally) |
 - Empower engineering leads |
