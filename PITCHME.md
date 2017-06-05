@@ -123,14 +123,11 @@ OWASP provides good materials
 
 <span style="color:gray">Hush your ego, leverage talend around you</span>
 
-![Sysadmin_day](assets/SysAdminDay_300.png)
-
-- Ask your Ops guys
-  - Network guys usually may have some security skills 
-  - Some systems engineers may know how to secure a middleware component
+![Sysadmin_day](assets/SysAdminDay_300.png?style=centerimg)
+- Ask your Ops or Dev friend for a hint
 
 - Security reviews
-  - Not only between Devs as "code reviews"
+  - Does not only between Devs as "code reviews"
   - Can also happen between Ops, Devs and Secs guys
 
 <span style="display:block; text-align:right; color:white">Provoke the mindset change!</span>
@@ -157,7 +154,7 @@ OWASP provides good materials
 - Enable log archives for compliance
 - Leverage netflow
 
-<span style="display:block; text-align:right; color:white">[Graylog](https://www.graylog.org/) from Graylog </span>
+<span style="display:block; text-align:right; color:white">[Graylog](https://www.graylog.org/)</span>
 
 Note:
 May not be very DevSecOps specifics, but it is super important
@@ -182,12 +179,10 @@ Example of ssh deployment issue with another puppet master
 
 +++
 
-<span style="color:gray">Harden your O/S</span>
+<span style="color:gray">Harden everything</span>
 
-Leverage your configuration management tool to
-
-- Harden your configuration management tool 
 - Harden your systems 
+- Harden your configuration management tool 
 - Harden your CI/CD infrastructure and your code repositories
 - Shutdown unnecessary services, reduce the attack surface
 - Enable SElinux / apparmor
@@ -235,7 +230,7 @@ Make sure your passwords, certificates or other keys are used in a safe manner.
 
 +++
 
-<span style="color:gray">Assess</span>
+<span style="color:gray">External assessment</span>
 
 If at all possible, get a second -- outside -- opinion.
 
