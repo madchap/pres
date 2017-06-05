@@ -14,7 +14,7 @@ A journey to DevSecOps
 
 +++
 
-<span style="display: block; text-align: center">![ITIL is evil](assets/ITILisevil_avg.png)</span>
+![ITIL is evil](assets/ITILisevil_avg.png?style=centerimg)
 
 - Knock walls down (literally) |
 - Empower engineering leads |
@@ -23,7 +23,7 @@ A journey to DevSecOps
 
 
 ---
-<span style="color:gray">Will your DevOps team embrace security?</span>
+<span style="color:gray">Will your DevOps teams embrace security?</span>
 * You've been telling your teams...
   * Build & run!
   * You own it, you're responsible for it!
@@ -31,7 +31,7 @@ A journey to DevSecOps
 
 * Now, you're going to tell them to do security too.
 
-You *need* the right people.
+You <span style="color:white">*need*</span> the right people.
 
 
 ---
