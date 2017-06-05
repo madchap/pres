@@ -29,9 +29,9 @@ A journey to DevSecOps
   * You own it, you're responsible for it!
   * You're on-call! 
 
-Now, you're going to tell them to do security too.
+* Now, you're going to tell them to do security too.
 
---> You *need* the right people.
+You *need* the right people.
 
 
 ---
@@ -46,41 +46,53 @@ Now, you're going to tell them to do security too.
 
 +++
 
-How effort in security, to possibly just throw things away?
+<span style="color:gray">Security effort</span>
+How much effort to put in security
+  ... to possibly just throw things away?
 
 Note:
 When doing MVP
 
 +++
 
-Does everyone understand the complexity of micro-services, containers and the like?
+<span style="color:gray">Complexity</span>
+
+Does everyone understand the complexity of 
+  ... micro-services
+  ... containers 
+  ... cloud
 
 Note:
 * Vuln in containers
 * or in underlying stacks used
 * Secrets
+* Bad security group in clouds
+* floating IP on backend services
+* No VPN?
 
 +++
 
-How do you handle change?
+<span style="color:gray">How do you handle change?</span>
 
 Note:
 Many small automated deployments Vs few big controlled ones
 
 +++
 
-Separation of Duties
+<span style="color:gray">Separation of Duties</span>
+
+What? Devs have access to prod?
 
 
 ---
 <span style="color:gray">Meanwhile, in the land of reality</span>
 * Separation of duties
   * i.e., iso27001
-* Still under the impression that there should be few (and big) controlled changes
-* Do not touch unless it is broken
-* Don't care much about technical debt
+* Most are still under the impression that there should be few (and big) controlled changes
+* Most say do not touch unless it is broken
+* Most don't care much about technical debt
 * Security still at the perimeter
-  * InfoSec often lacks pure engineering skills - spend too much time in word doc and procedures, not enough in code.
+  * InfoSec often lacks pure engineering skills 
   
 > Talk is cheap, show me the code
 > -- Linus Torvalds
@@ -93,6 +105,7 @@ DevOps and Security are no enemy
   * Most exploits are against legacy code
 
 ---
+
 # Secret management
 * Hashicorp vault
 * Keywhiz
