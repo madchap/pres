@@ -1,4 +1,4 @@
-# theme: black
+theme: moon
 logo: assets/logo-kudelski-smallest.png
 revealjs: 3.4.1
 theme-override: assets/PITCHME.css
