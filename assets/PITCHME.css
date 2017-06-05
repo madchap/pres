@@ -5,11 +5,11 @@
 
 .reveal .slides {
     text-align: left;
-    margin-left: 15;
-    margin-right: 15;
+    margin-left: 10;
+    margin-right: 10;
 }
 
 .reveal .slides section>* {
-    margin-left: 15;
+    margin-left: 10;
     margin-right: 10;
 }
