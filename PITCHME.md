@@ -12,14 +12,13 @@ A journey to DevSecOps
 ---
 <span style="color:gray">How we do DevOps</span>
 
-![Masked Cucumber](assets/masked_cucumber_90px.jpg)
+![Masked Cucumber](assets/masked_cucumber_90px.jpg) ![ITIL is evil](assets/ITILisevil_avg.png)
 
 - Knock walls down (literally) |
 - Empower engineering leads |
 - Always-on "Designated ops" in "solutions" team |
 - Still in the early days of rolling out DevSecOps |
 
-![ITIL is evil](assets/ITILisevil_avg.png)
 
 ---
 # Hello DevOps!
