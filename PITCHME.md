@@ -47,7 +47,9 @@ You *need* the right people.
 +++
 
 <span style="color:gray">Security effort</span>
+
 How much effort to put in security
+  
   ... to possibly just throw things away?
 
 Note:
