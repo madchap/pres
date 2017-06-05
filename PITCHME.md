@@ -4,7 +4,7 @@ DevSecOps intro &amp; infra insights
 
 
 ---
-<span style="color:gray">Embracing DevOps at KS</span>
+<span style="color:gray; text-align:center">Embracing DevOps at KS</span>
 
 <!--- ![Masked Cucumber](assets/masked_cucumber_90px.jpg)  -->
 ![DevOps_SouthPark](assets/devops_southpark_400.png?style=centerimg)
@@ -247,9 +247,11 @@ Make sure your passwords, certificates or other keys are used in a safe manner.
 Questions? (and hopefully answers)
 
 ---
-# References
-- Veracode : The Developer's Guide to the DevSecOps galaxy
+References
+
+- Veracode: The Developer's Guide to the DevSecOps galaxy
 - DevOps and Security: From the Trenches to Command Centers: https://blog.xebialabs.com/2017/05/04/devops-security-trenches-command-centers
 - How Etsy makes Devops work: http://www.networkworld.com/article/2886672/software/how-etsy-makes-devops-work.html
-- DevSecOps : http://www.oreilly.com/webops-perf/free/files/devopssec.pdf
+- DevSecOps: http://www.oreilly.com/webops-perf/free/files/devopssec.pdf
 - The treacherous 12: https://downloads.cloudsecurityalliance.org/assets/research/top-threats/Treacherous-12_Cloud-Computing_Top-Threats.pdf
+- DevOps explained: https://www.niceideas.ch/roller2/badtrash/entry/devops-explained
