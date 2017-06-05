@@ -2,12 +2,13 @@
 ##### 13.06.2017
 DevSecOps intro &amp; infra insights
 
-<!--- ![Masked Cucumber](assets/masked_cucumber_90px.jpg)  -->
 
 ---
 <span style="color:gray">Embracing DevOps at KS</span>
 
-![ITIL is evil](assets/ITILisevil_avg.png?style=centerimg)
+<!--- ![Masked Cucumber](assets/masked_cucumber_90px.jpg)  -->
+![DevOps_SouthPark](assets/devops_southpark.png)
+<!--- ![ITIL is evil](assets/ITILisevil_avg.png?style=centerimg) -->
 
 - Re-org + new management |
 - Knock walls down (literally) |
