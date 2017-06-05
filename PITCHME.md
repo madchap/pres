@@ -46,11 +46,9 @@ You *need* the right people.
 
 +++
 
-<span style="color:gray">Security effort</span>
-
-How much effort to put in security
+<span style="color:gray">How much effort to put in security</span>
   
-<span style="display:block; text-align:right">... to possibly just throw things away? <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">... to possibly just throw things away? <!-- .element: class="fragment" --></span>
 
 Note:
 When doing MVP
