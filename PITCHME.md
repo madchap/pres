@@ -119,12 +119,12 @@ May not be very DevSecOps specifics, but it is super important
 +++
 
 <span style="color:gray">Infra as code</span>
-- We use the combination of [Puppet/Foreman/Katello](https://theforeman.org/ "Puppet/Foreman/Katello")
+- We use the combination of [Puppet/Foreman/Katello](https://theforeman.org/)
 
 <span style="display:block; text-align:right; color:white">\+ Automate your deployment <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">\+ Merge request your infra <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">\+ Consistency <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">\+ Reduce config error/drift <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ Merge request your infra </span>
+<span style="display:block; text-align:right; color:white">\+ Consistency </span>
+<span style="display:block; text-align:right; color:white">\+ Reduce config error/drift </span>
 
 Note:
 Example of ssh deployment issue with another puppet master
@@ -132,7 +132,7 @@ Example of ssh deployment issue with another puppet master
 +++
 
 <span style="color:gray">Know about your cloud basics</span>
-<span style="display:block; text-align:right; color:white">\+ Scan Security Groups for ingress 0.0.0.0/0</span>
+<span style="display:block; text-align:right; color:white">\+ Scan security groups for ingress 0.0.0.0/0</span>
 
 +++
 
@@ -140,7 +140,7 @@ Example of ssh deployment issue with another puppet master
 
 Containers you use most likely contain vulnerabilities.
 
-<span style="display:block; text-align:right; color:white">\+ [Clair](https://github.com/coreos/clair "Clair") from CoreOS <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ [Clair](https://github.com/coreos/clair "Clair") <!-- .element: class="fragment" --></span>
 <span style="display:block; text-align:right; color:white">\+ [docker-bench-security](https://github.com/docker/docker-bench-security "docker-bench-security")<!-- .element: class="fragment" --></span>
 
 Act.
@@ -150,12 +150,14 @@ Act.
 +++
 
 <span style="color:gray">Secrets management</span>
+
 Make sure your passwords, certificates or other keys are used in a safe manner.
 
-<span style="display:block; text-align:right; color:white">- [Vault](https://www.vaultproject.io/ "Vault") from Hashicorp <!-- .element: class="fragment" --></span>
-<span style="display:block; text-align:right; color:white">- [KeyWhiz](https://square.github.io/keywhiz/ "Keywhiz") from Square Engineering <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ [Vault](https://www.vaultproject.io/ "Vault") from Hashicorp <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">\+ [KeyWhiz](https://square.github.io/keywhiz/ "Keywhiz") from Square Engineering <!-- .element: class="fragment" --></span>
 
- 
+
+---
 DevOps and Security are no enemy 
 * Frequent changes and software updates is good for security
   * How long do you think it takes to prepare an attack?
