@@ -3,6 +3,9 @@
 ##### 13.06.2017
 Shift Security left: make DevSecOps real
 
+<span style="color:gray; font-size:0.5em">All stupid things I can say do not reflect my employer's view.
+Great things do, however.</span>
+
 
 ---
 <span style="color:gray; display:block; text-align:center">Before I forget...</span>
@@ -11,7 +14,7 @@ A couple events coming up
 <span style="display:block; text-align:right; color:white">\+ Soft-shake.ch (Oct. 26-27) - HEPIA, Geneva</span>
 <span style="display:block; text-align:right; color:white">\+ DevOps meetup (June 15) - Geneva</span>
 
-and a small plug
+And a plug
 <span style="display:block; text-align:right; color:white">\+ I am hiring</span>
 
 ---
@@ -42,7 +45,7 @@ Note:
 <span style="display:block; text-align:right; color:white">\+ Now please, put your security hat on. <!-- .element: class="fragment" --></span>
 
 
-You <span style="color:white">*need*</span> the right people.
+You <span style="color:white">*need*</span> the right people.<!-- .element: class="fragment" -->
 
 
 ---
@@ -51,7 +54,7 @@ You <span style="color:white">*need*</span> the right people.
 +++
 
 <span style="color:gray">Where is your security design documented?</span>
-<span style="display:block; text-align:right; color:white">... err, code over documentation my friend! <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">... code over documentation! <!-- .element: class="fragment" --></span>
 
 
 Note:
