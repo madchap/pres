@@ -125,28 +125,39 @@ CorpSec is yet another split
 
 ---
 <span style="color:gray">Where to get started</span>
-<span style="display:block; text-align:right; color:white">Organisational change</span>
+<span style="display:block; text-align:right; color:white">Organizational change</span>
 
-<span style="display:block; text-align:right; color:white">Make security a first class citizen</span>
-<span style="display:block; text-align:right; color:white">Publish your security status/metrics</span>
-<span style="display:block; text-align:right; color:white">Publish your changes</span>
++++
+
+<span style="color:gray">SecOps/CorpSec pros are usually no coders or infra guys</span>
+
+<span style="display:block; text-align:right; color:white">\+ Security needs to be alive within the squad</span>
+<span style="display:block; text-align:right; color:white">\+ Train your teams for security</span>
+<span style="display:block; text-align:right; color:white">\+ Dedicate a champion</span>
+
+
+It is <span style="color:white">*hard*</span> to find a pure DevSecOps guy.
+
++++
+
+<span style="color:gray">Make security a first class citizen</span>
+<span style="display:block; text-align:right; color:white">\+ Publish your security status/metrics</span>
+<span style="display:block; text-align:right; color:white">\+ Publish your changes</span>
+
+
+Establish trust and confidence.
 
 Note:
 Security status, if possible, should be shown on a dashboard much like Jenkins job dashboard. If something fails, it needs to be tackled right away and fixed.
 
 +++
 
-<span style="color:gray">SecOps pros are usually no coders or infra guys</span>
+<span style="color:gray">If you are a highly regulated company</span>
+<span style="display:block; text-align:right; color:white">\+ Onboard your compliance team</span>
+<span style="display:block; text-align:right; color:white">\+ Onboard your internal audit team</span>
+<span style="display:block; text-align:right; color:white">\+ Onboard your management</span>
 
-<span style="display:block; text-align:right; color:white">\+ Security obviously needs to be alive within the squad</span>
-<span style="display:block; text-align:right; color:white">\+ Train your teams for security</span>
-<span style="display:block; text-align:right; color:white">\+ Dedicate a champion</span>
-
-
-It is  <span style="color:white">*hard*</span> to find a pure DevSecOps guy.
-
-Note:
-OWASP provides good materials 
+Establish a true relationship, work with them over the long haul to match their expectations.
 
 +++
 
@@ -160,6 +171,8 @@ OWASP provides good materials
   - Can also happen between Ops, Devs and Secs guys
 
 <span style="display:block; text-align:right; color:white">Provoke the mindset change!</span>
+
++++
 
 
 ---
