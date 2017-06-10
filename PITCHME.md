@@ -1,16 +1,18 @@
 ### DevSecOps Lausanne meetup   
 #### Fred Blaise, Kudelski Security
 ##### 13.06.2017
-Shift Security left: what to do to make DevSecOps real
+Shift Security left: make DevSecOps real
 
 
 ---
 <span style="color:gray; display:block; text-align:center">Before I forget...</span>
-A couple events coming up
-<span style="display:block; text-align:right; color:white">Soft-shake.ch (Oct. 26-27) - Geneva</span>
-<span style="display:block; text-align:right; color:white">DevOps meetup (June 15) - Geneva</span>
 
-and a small plug... I am hiring.
+A couple events coming up
+<span style="display:block; text-align:right; color:white">\+ Soft-shake.ch (Oct. 26-27) - Geneva</span>
+<span style="display:block; text-align:right; color:white">\+ DevOps meetup (June 15) - Geneva</span>
+
+and a small plug
+<span style="display:block; text-align:right; color:white">\+ I am hiring</span>
 
 ---
 <span style="color:gray; display:block; text-align:center">Embracing DevOps at KS</span>
