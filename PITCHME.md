@@ -20,6 +20,9 @@ A couple events coming up
 And a plug
 <span style="display:block; text-align:right; color:white">\+ I am hiring, infra engineer with security hat</span>
 
+And a big thanks
+<span style="display:block; text-align:right; color:white">\+ to our sponsor (look at the top-left logo)</span>
+
 ---
 <span style="color:gray; display:block; text-align:center">Embracing DevOps at KS engineering</span>
 
