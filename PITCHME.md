@@ -18,10 +18,10 @@ A couple events coming up
 <span style="display:block; text-align:right; color:white">\+ DevOps meetup (June 15) - Geneva</span>
 
 And a plug
-<span style="display:block; text-align:right; color:white">\+ I am hiring, infra engineering with security hat</span>
+<span style="display:block; text-align:right; color:white">\+ I am hiring, infra engineer with security hat</span>
 
 ---
-<span style="color:gray; display:block; text-align:center">Embracing DevOps at KS</span>
+<span style="color:gray; display:block; text-align:center">Embracing DevOps at KS engineering</span>
 
 <!--- ![Masked Cucumber](assets/masked_cucumber_90px.jpg)  -->
 ![DevOps_SouthPark](assets/devops_southpark_400.png?style=centerimg)
@@ -48,7 +48,7 @@ Note:
 <span style="display:block; text-align:right; color:white">\+ Now please, put your security hat on. <!-- .element: class="fragment" --></span>
 
 
-You <span style="color:white">*need*</span> the right people.<!-- .element: class="fragment" -->
+You *need* the right people. |
 
 
 ---
