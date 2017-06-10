@@ -39,7 +39,8 @@ Note:
   * You own it, you're responsible for it!
   * You're on-call! 
 
-<span style="display:block; text-align:right; color:white">\+ Now please, put your security hat on.</span>
+<span style="display:block; text-align:right; color:white">\+ Now please, put your security hat on. <!-- .element: class="fragmen  t" --></span>
+
 
 You <span style="color:white">*need*</span> the right people.
 
