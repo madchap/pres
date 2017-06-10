@@ -160,10 +160,8 @@ Security status, if possible, should be shown on a dashboard much like Jenkins j
 <span style="display:block; text-align:right; color:white">\+ Onboard your internal audit team</span>
 <span style="display:block; text-align:right; color:white">\+ Onboard your management</span>
 
-<span style="display:block; color:rgb(0,148,147)">
-- Establish a true relationship
-- work with them over the long haul to match their expectations
-</span>
+<span style="display:block; color:rgb(0,148,147)"> - Establish a true relationship </span>
+<span style="display:block; color:rgb(0,148,147)"> - work with them over the long haul to match their expectations</span>
 
 +++
 
@@ -173,7 +171,7 @@ Security status, if possible, should be shown on a dashboard much like Jenkins j
 - Ask your Op or Dev friend for a hint
 
 - Security reviews
-  - Does not only between Devs as "code reviews"
+  - Reviews are not only between Devs as "code reviews"
   - Can also happen between Ops, Devs and Secs guys
 
 
