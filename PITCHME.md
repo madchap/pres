@@ -1,8 +1,16 @@
 ### DevSecOps Lausanne meetup   
 #### Fred Blaise, Kudelski Security
 ##### 13.06.2017
-DevSecOps - thoughts from an infra guy
+Shift Security left: what to do to make DevSecOps real
 
+
+---
+<span style="color:gray; display:block; text-align:center">Before I forget...</span>
+A couple events coming up
+<span style="display:block; text-align:right; color:white">Soft-shake.ch (Oct. 26-27) - Geneva</span>
+<span style="display:block; text-align:right; color:white">DevOps meetup (June 15) - Geneva</span>
+
+and a small plug... I am hiring.
 
 ---
 <span style="color:gray; display:block; text-align:center">Embracing DevOps at KS</span>
@@ -11,15 +19,19 @@ DevSecOps - thoughts from an infra guy
 ![DevOps_SouthPark](assets/devops_southpark_400.png?style=centerimg)
 <!--- ![ITIL is evil](assets/ITILisevil_avg.png?style=centerimg) -->
 
-- Re-org + new management |
-- Knock walls down (literally) |
-- Empower engineering leads |
-- Always-on "Designated ops" in "solutions" team |
-- Still in the early days of rolling out DevSecOps |
+- Re-org + new management 
+- Knock walls down (literally)
+- Empower engineering leads
+- Always-on "Designated ops" in "solutions" team
+- Still in the early days of rolling out DevSecOps
 
+Note:
+- The re-org is important because it did rid part of a flawed organisation, which could not provide the needed level of performance to achieve our goals.
+- Could get started with the right people, having the right mindset.
+- Faster tech decisions
 
 ---
-<span style="color:gray">Will your DevOps teams embrace security?</span>
+<span style="color:gray">Polymorphism</span>
 * You've been telling your teams...
   * Build & run!
   * You own it, you're responsible for it!
@@ -40,17 +52,14 @@ You <span style="color:white">*need*</span> the right people.
 
 
 Note:
-Code over documentation 
-Hence over security design documentation -- likely no documentation
-The fast iterations prohibits it
+- Code over documentation
+- Hence over security design documentation -- likely no documentation
+- The fast iterations prohibits it
 
 +++
 
 <span style="color:gray">How much effort to put in security</span>
-<span style="display:block; text-align:right; color:white">... to possibly just throw things away? <!-- .element: class="fragment" --></span>
-
-Note:
-When doing MVP
+<span style="display:block; text-align:right; color:white">... to possibly just throw things away? (i.e. MVP) <!-- .element: class="fragment" --></span>
 
 +++
 
@@ -80,14 +89,15 @@ Remember the CAB once every 2 weeks to put a change through?
 
 <span style="color:gray">Separation of Duties</span>
 <span style="display:block; text-align:right; color:white">What? Devs have access to prod? <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">How do you demonstrate you still comply to auditors?<!-- .element: class="fragment" --></span>
 
 Note:
 Replace manual checks and gates with automated counterparts
 
 ---
 <span style="color:gray">What is still present in a lot of places</span>
-* Separation of duties (i.e., iso27001)
-* Many: 
+* Separation of duties (i.e., iso27001, cobit, itil), endless CABs
+* Many (outside DevOps)
   * are still in favor of few big "controlled" changes
   * say do not touch unless it is broken
   * don't care much about technical debt
@@ -106,7 +116,14 @@ CorpSec is yet another split
 
 ---
 <span style="color:gray">Where to get started</span>
+<span style="display:block; text-align:right; color:white">Organisational change</span>
+
 <span style="display:block; text-align:right; color:white">Make security a first class citizen</span>
+<span style="display:block; text-align:right; color:white">Publish your security status/metrics</span>
+<span style="display:block; text-align:right; color:white">Publish your changes</span>
+
+Note:
+Security status, if possible, should be shown on a dashboard much like Jenkins job dashboard. If something fails, it needs to be tackled right away and fixed.
 
 +++
 
@@ -124,7 +141,7 @@ OWASP provides good materials
 
 +++
 
-<span style="color:gray">Hush your ego, leverage talend around you</span>
+<span style="color:gray">Hush your ego, leverage talent around you</span>
 
 ![Sysadmin_day](assets/SysAdminDay.png?style=centerimg)
 - Ask your Op or Dev friend for a hint
@@ -185,7 +202,7 @@ Example of ssh deployment issue with another puppet master
 <span style="color:gray">Harden everything</span>
 
 - Harden your systems 
-- Harden your configuration management tool 
+- Harden your configuration management ecosystem 
 - Harden your CI/CD infrastructure and your code repositories
 - Shutdown unnecessary services, reduce the attack surface
 - Enable SElinux / apparmor
