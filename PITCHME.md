@@ -139,7 +139,7 @@ CorpSec is yet another split
 <span style="display:block; text-align:right; color:white">\+ Dedicate a champion</span>
 
 
-It is <span style="color:white">*hard*</span> to find a pure DevSecOps guy.
+<span style="display:block; color:rgb(0,148,147)">It is *hard* to find a pure DevSecOps guy.</span>
 
 +++
 
@@ -148,7 +148,7 @@ It is <span style="color:white">*hard*</span> to find a pure DevSecOps guy.
 <span style="display:block; text-align:right; color:white">\+ Publish your changes</span>
 
 
-Establish trust and confidence.
+<span style="display:block; color:rgb(0,148,147)">Establish trust and confidence.</span>
 
 Note:
 Security status, if possible, should be shown on a dashboard much like Jenkins job dashboard. If something fails, it needs to be tackled right away and fixed.
@@ -160,7 +160,10 @@ Security status, if possible, should be shown on a dashboard much like Jenkins j
 <span style="display:block; text-align:right; color:white">\+ Onboard your internal audit team</span>
 <span style="display:block; text-align:right; color:white">\+ Onboard your management</span>
 
-Establish a true relationship, work with them over the long haul to match their expectations.
+<span style="display:block; color:rgb(0,148,147)">
+- Establish a true relationship
+- work with them over the long haul to match their expectations
+</span>
 
 +++
 
