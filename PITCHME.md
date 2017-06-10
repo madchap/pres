@@ -48,7 +48,7 @@ Note:
 <span style="display:block; text-align:right; color:white">\+ Now please, put your security hat on. <!-- .element: class="fragment" --></span>
 
 
-You *need* the right people. <!-- .element: class="fragment" -->
+You need the right people. <!-- .element: class="fragment" -->
 
 
 ---
