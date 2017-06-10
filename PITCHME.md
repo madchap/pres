@@ -71,7 +71,7 @@ Note:
 +++
 
 <span style="color:gray">How much effort to put in security</span>
-<span style="display:block; text-align:right; color:white">... to possibly just throw things away? (i.e. MVP) <!-- .element: class="fragment" --></span>
+<span style="display:block; text-align:right; color:white">... to possibly just throw things away? <!-- .element: class="fragment" --></span>
 
 +++
 
@@ -173,10 +173,6 @@ Establish a true relationship, work with them over the long haul to match their 
   - Does not only between Devs as "code reviews"
   - Can also happen between Ops, Devs and Secs guys
 
-<span style="display:block; text-align:right; color:white">Provoke the mindset change!</span>
-
-+++
-
 
 ---
 <span style="color:gray">Where to get started</span>
@@ -186,8 +182,8 @@ Establish a true relationship, work with them over the long haul to match their 
 
 <span style="color:gray">Frequent changes and updates are good for security</span>
 <span style="display:block; text-align:right; color:white">\+ How long do you think it takes to prepare an attack?
-<span style="display:block; text-align:right; color:white">\+ Most exploits are against legacy code.
-<span style="display:block; text-align:right; color:white">\+ Minimizes deployment risks over time.
+<span style="display:block; text-align:right; color:white">\+ Most exploits are against legacy code
+<span style="display:block; text-align:right; color:white">\+ Minimizes deployment risks over time
 
 +++
 
