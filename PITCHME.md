@@ -1,10 +1,14 @@
 ### DevSecOps Lausanne meetup   
 #### Fred Blaise, Kudelski Security
+<span style="color:gray; font-size:0.4em">Infrastructure engineering lead</span>
 ##### 13.06.2017
 Shift Security left: make DevSecOps real
 
-<span style="color:gray; font-size:0.5em">All stupid things I can say do not reflect my employer's view.
-Great things do, however.</span>
+
+
+
+<span style="color:gray; font-size:0.4em">(All stupid things I can say do not reflect my employer's view.
+Great things may do, however.)</span>
 
 
 ---
@@ -15,7 +19,7 @@ A couple events coming up
 <span style="display:block; text-align:right; color:white">\+ DevOps meetup (June 15) - Geneva</span>
 
 And a plug
-<span style="display:block; text-align:right; color:white">\+ I am hiring</span>
+<span style="display:block; text-align:right; color:white">\+ I am hiring, infra engineering with security hat</span>
 
 ---
 <span style="color:gray; display:block; text-align:center">Embracing DevOps at KS</span>
