@@ -8,7 +8,7 @@ Shift Security left: make DevSecOps real
 <span style="color:gray; display:block; text-align:center">Before I forget...</span>
 
 A couple events coming up
-<span style="display:block; text-align:right; color:white">\+ Soft-shake.ch (Oct. 26-27) - Geneva</span>
+<span style="display:block; text-align:right; color:white">\+ Soft-shake.ch (Oct. 26-27) - HEPIA, Geneva</span>
 <span style="display:block; text-align:right; color:white">\+ DevOps meetup (June 15) - Geneva</span>
 
 and a small plug
@@ -39,7 +39,7 @@ Note:
   * You own it, you're responsible for it!
   * You're on-call! 
 
-* Now, you're going to tell them to do security too.
+<span style="display:block; text-align:right; color:white">\+ Now please, put your security hat on.</span>
 
 You <span style="color:white">*need*</span> the right people.
 
