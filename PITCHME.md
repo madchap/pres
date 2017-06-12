@@ -14,8 +14,8 @@ Great things may, however.</span>
 <span style="color:gray; display:block; text-align:center">Before I forget...</span>
 
 A couple events coming up
-<span style="display:block; text-align:right; color:white">\+ Soft-shake.ch (Oct. 26-27) - HEPIA, Geneva</span>
-<span style="display:block; text-align:right; color:white">\+ DevOps meetup (June 15) - Geneva</span>
+<span style="display:block; text-align:right; color:white">\+ [Soft-shake.ch](http://www.soft-shake.ch) (Oct. 26-27) - HEPIA, Geneva</span>
+<span style="display:block; text-align:right; color:white">\+ [DevOps meetup](https://www.meetup.com/DevOps-Geneve/events/240232729/) (June 15) - Geneva</span>
 <span style="display:block; text-align:right; color:white">\+ [KS Cyber Summit (June 15)](https://www.kudelskisecurity.com/about-us/events/kudelski-security-cyber-summit) - Lausanne</span>
 
 And a plug
