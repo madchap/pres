@@ -1,0 +1,5 @@
+{
+	"csr": "",
+	"common_name": "test.demo.com",
+	"alt_names": "foo.demo.com, bar.demo.com"
+}

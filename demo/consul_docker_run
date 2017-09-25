@@ -1,0 +1,1 @@
+docker run --name consul1 -p 8500:8500 -p 8600:53/udp -v consul_data_1:/consul/data -v consul_config_1:/consul/config consul agent -server -ui -client 0.0.0.0 -node consul1 -bootstrap
