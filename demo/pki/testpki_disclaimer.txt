@@ -1,0 +1,7 @@
+This crude demo script is not to be used in production as is.
+Its purpose is to take you through each step of the script, no more no less.
+
+The script is set to run displaying commands, as indicated with a leading '+' sign. This is the actual command being run.
+
+No worries if you see my root token ;-) But think twice when you do something in a sensitive environment.
+
