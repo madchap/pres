@@ -82,7 +82,12 @@ https://aws.amazon.com/quickstart/architecture/vault/
 * Encryption as a service
 * PKI
 
+
 ---
 <span style="color:gray; display:block; text-align:center">Links</span>
-* Asciicasts starting with "vault - " [![asciicast](https://asciinema.org/~madchap)](https://asciinema.org/~madchap target="_blank")]
-* Source (script and slides): https://github.com/madchap/pres/tree/vault_pres
+* My demo asciicasts starting with "vault - ": https://asciinema.org/~madchap
+* Source (scripts and slides): https://github.com/madchap/pres/tree/vault_pres
+
+
+---
+<span style="color:gray; display:block; text-align:center">Thank you</span>
