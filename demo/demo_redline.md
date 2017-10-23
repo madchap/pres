@@ -198,7 +198,7 @@ This could be as early as when your script is actually done running
 `$ vault revoke your_lease_id`
 `$ curl -X PUT -H "X-Vault-Token:$VAULT_TOKEN" http://127.0.0.1:8200/v1/sys/leases/revoke --data '{"lease_id":"aws/creds/aws_cloudtrail_ro/dc687ee2-0b20-0561-3f65-05c2665510bb"}'
 
-> Danger: could revoke by prefix too, such as `vault revoke -prefix aws/`
+> Danger: could revoke by prefix too, such as `vault revoke -prefix aws/creds/aws_cloudtrail_ro`
 
 ## encryption as a service
 Welcome backend "transit", does not store anything.
