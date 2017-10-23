@@ -46,7 +46,7 @@ All for free as in beer and as in speech (unless you want to go "enterprise")
 ---
 <span style="color:gray; display:block; text-align:center">Shamir's secret sharing</span>
 "Unsealing" is the process of constructing the master key necessary to read the decryption key to decrypt the data, allowing access to the Vault.
-![keys_graph](assets/shamirs_diagram?style=centerimg)
+![keys_graph](assets/shamirs_diagram.png?style=centerimg)
 
 ---
 <span style="color:gray; display:block; text-align:center">Open-source Vs Enterprise</span>
