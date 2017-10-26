@@ -19,6 +19,8 @@
 - One-time database account, with a password (possibly set to never expire).
 - One-time "name-your-cloud" account, with a static set of keys.
 
+- A PITA whenever someone leaves the company.
+
 Everything is very manual, time consuming and not very Dev[Sec]Ops friendly.
 
  <span style="color:gray; font-size:0.4em">Some fun facts: https://www.itworld.com/article/2823169/security/135075-Sher-locked-12-famous-passwords-used-through-the-ages.html</span>
@@ -27,6 +29,13 @@ Everything is very manual, time consuming and not very Dev[Sec]Ops friendly.
 ---
 ![keys_graph](assets/passwords_like_underwear.png?style=centerimg)
 
+
+---
+<span style="color:gray; display:block; text-align:center">What we want for our secrets</span>
+- We want it now and self-service, automated.
+- Not have to worry about our secret being out in the wild.
+- Possibly not having to worry about revoking secrets.
+- We want to be able to track everything.
 
 ---
 <span style="color:gray; display:block; text-align:center">Vault high-level features</span>
@@ -90,7 +99,7 @@ https://aws.amazon.com/quickstart/architecture/vault/
 * Basic generic secret storage i/o
 * Quick look at policies and authentication backends
 * Generating on-the-fly access keys for AWS
-* Encryption as a service
+* (Encryption as a service)
 * PKI
 
 
