@@ -27,7 +27,7 @@ Everything is very manual, time consuming and not very Dev[Sec]Ops friendly.
 
 
 ---
-![keys_graph](assets/passwords_like_underwear.png?style=centerimg)
+![keys_graph](assets/secrets_like_underwear.png?style=centerimg)
 
 
 ---
